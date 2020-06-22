@@ -3,7 +3,7 @@ body {
 	line-height: 1.8;
 	color: #000000;
 	font-family: Montserrat, sans-serif;
-	background-color: #f1f1f1;
+	background-color: #fbfbfb;
 }
 html {
   scroll-behavior: smooth;
@@ -187,6 +187,20 @@ table thead tr{
 table thead tr th{
 	font-weight: normal;
 }
+.aboutImg{
+	width:300px;
+	height:200px;
+}
+.aboutIN{
+	background-color: #505050;
+}
+.aboutIN>h4{
+	font-size: 27px;
+}
+.aboutIN h6{
+	color: #ffffff;
+	font-size: 16px;
+}
 @keyframes slide {
 	0% {
 		opacity: 0;
@@ -248,6 +262,16 @@ table thead tr th{
   		border: 0px;
   		border-radius: 0px;
 	}
+	.aboutIN{
+		padding: 3% !important;
+	}
+	.aboutIN>h4{
+		font-size: 17px;
+	}
+	.aboutIN img{
+		width: 100% !important;
+	}
+
 }
 @media screen and (max-width: 480px) {
 	.logo {
