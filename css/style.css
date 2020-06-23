@@ -189,7 +189,7 @@ table thead tr th{
 }
 .aboutImg{
 	width:300px;
-	height:210px;
+	height:200px;
 }
 .aboutIN{
 	background-color: #505050;
@@ -271,7 +271,9 @@ table thead tr th{
 	.aboutIN img{
 		width: 100% !important;
 	}
-
+	.aboutImg{
+		height:220px;
+	}
 }
 @media screen and (max-width: 480px) {
 	.logo {
